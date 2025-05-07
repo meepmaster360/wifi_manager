@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# First Version
+
 # Check if running as root
 if [ "$EUID" -ne 0 ]; then
     echo "Please run as root (sudo $0)"

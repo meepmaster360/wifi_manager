@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Second Version
+
 # Check if running as root
 if [ "$EUID" -ne 0 ]; then
     echo -e "\n\033[1;31mPlease run as root:\033[0m sudo $0"
